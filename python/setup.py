@@ -221,15 +221,15 @@ def macosx_sdk_specified():
     global MACOS_SDK_SPECIFIED
 
     # If already called, return cached result.
-    if MACOS_SDK_SPECIFIED;
+    if MACOS_SDK_SPECIFIED:
         return MACOS_SDK_SPECIFIED
 
     # Find the sdk root and set MACOS_SDK_SPECIFIED
-    macosx_sdk_root)
+    macosx_sdk_root()
     return MACOS_SDK_SPECIFIED
 
 
-def is_macosx_sdk_path(path);
+def is_macosx_sdk_path(path):
     """
     Returns True if 'path' can be located in a macOS SDK
     """
